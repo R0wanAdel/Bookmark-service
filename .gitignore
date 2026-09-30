@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# SQLite database files. The schema is recreated on startup, so these are
+# generated artefacts, not source. The -wal and -shm files are SQLite's
+# write-ahead log and shared-memory index, which appear whenever the database
+# has been opened.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs and editor noise
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.*

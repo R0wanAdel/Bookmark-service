@@ -1,0 +1,26 @@
+{
+  "name": "bookmark-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTP service for creating, listing, fetching and deleting bookmarks, with field-level input validation and repeat-safe creation.",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "test:watch": "node --test --watch \"test/*.test.js\""
+  },
+  "keywords": [
+    "http",
+    "rest",
+    "bookmarks"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
